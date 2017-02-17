@@ -1,7 +1,7 @@
 <?php
 
 include_once 'connection.php';
-header('Content-Type application/json')
+header('Content-Type application/json ');
 	
 	class Spatialdata {
 		
