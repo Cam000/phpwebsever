@@ -15,7 +15,7 @@ include_once 'connection.php';
 		
 		public function sendtodb($gyroscope,$accelerometer)
 		{
-			$query = "UPDATE mysensordata SET gyroscope = $gyroscope accelerometer = $accelerometer WHERE idmysensor = 0";
+			$query = "UPDATE mysensordata SET gyroscope = '$gyroscope', accelerometer = '$accelerometer' WHERE idmysensor = 0";
 			
 			
 		}
